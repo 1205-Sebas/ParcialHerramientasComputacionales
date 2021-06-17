@@ -1,0 +1,15 @@
+1. Que tipo de errores se presentaron o se pueden presentar con su implementación al
+problema?
+Los tipos de errores que podrían presentarse serían;
+ - Errores de sintaxis: Los eerores de sintaxis podrían presentarse con el manejo de los
+			condicionales, siguiebdo un orden correcto y así asegurar un buen funcionamiento.
+ - Errores de ejecución: El usuario podría ingresar valores alfabeticos donde deberían ir valores
+			 valores numericos y viceversa.
+2. Que estrategias podría usar para solucionar estos errores?
+Las estrategias que utilizaremos seran, el uso de "fuerza bruta" así como la estrategía de vuelta atras,
+para garantizar un buen funcionamiento logico, adicionalmente, se pondran instrucciones especificas en 
+las impresiones por consola para que el usurio ingrese los valores correctos. 
+
+Estrattegias a utilizar:
+- Fuerza bruta
+- Vuelta atras
