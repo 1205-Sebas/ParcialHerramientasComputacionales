@@ -15,24 +15,47 @@ de la forma: ”El Rol con cedula Numero, debe pagar Valor por el producto Codig
 
 
 Tenga en cuenta que este valor final a pagar corresponde al precio de cada producto por la
-cantidad llevada menos el descuento otorgado, debe imprimir el rol y la c´edula de cada cliente
-y el c´odigo del producto llevado en el mensaje.
+cantidad llevada menos el descuento otorgado, debe imprimir el rol y la cédula de cada cliente
+y el código del producto llevado en el mensaje.
 ### Explicación Problema (Resolución- Entradas - Salidas)
 
 **Explicación:** Programa para ordenar un producto en la cafeteria, donde se evalua la condición de estudiante o profesor para aplicar el descuento especifico.
 
 ***Entradas:***
-- num_cedula: *Pide el número de cedula al usuario.
-- produc: *Ingresar el código del producto, el cual es visible en el diccionario "productos" con el código, nombre y precio.
-- cantidad: *Cantidad del producto escogido.
-- ir_pagar: *Pide el valor para saber si ingresar a pagar.
-- prof_est: *Determina si es estudiante o profesor, para aplicar el descuento correspondiente.
+- num_cedula: *Pide el número de cedula al usuario.*
+- produc: *Ingresar el código del producto, el cual es visible en el diccionario "productos" con el código, nombre y precio.*
+- cantidad: *Cantidad del producto escogido.*
+- ir_pagar: *Pide el valor para saber si ingresar a pagar.*
+- prof_est: *Determina si es estudiante o profesor, para aplicar el descuento correspondiente.*
 
 ***Salida:***
-- num_cedula: *Imprime en el mensaje de salida el número de cedula para asociar al usuario con la orden.
-- valora: *En caso de ser estudiante guarda el valor del la multiplicación del valor del producto por su cantidad y despues se hace el desceunto del 50%.
-- valorb: *En caso de ser profesor guarda el valor del la multiplicación del valor del producto por su cantidad y despues se hace el desceunto del 20%.
-- produc: *Imprime el código del producto relacionandp costo y producto.
-- productos[i][0]: *Imprime el nombre del producto escogido relacionado con su código
+- num_cedula: *Imprime en el mensaje de salida el número de cedula para asociar al usuario con la orden.*
+- valora: *En caso de ser estudiante guarda el valor del la multiplicación del valor del producto por su cantidad y despues se hace el descuento del 50%.*
+- valorb: *En caso de ser profesor guarda el valor del la multiplicación del valor del producto por su cantidad y despues se hace el descuento del 20%.*
+- produc: *Imprime el código del producto relacionandp costo y producto.*
+- productos[i][0]: *Imprime el nombre del producto escogido relacionado con su código*
 
-**Ubicación resultado: *parcialHerramienta.py
+**Ubicación resultado**: *parcialHerramienta.py*
+
+En el archivo **punto2_parcialherramientas** se encuentra la respuesta a las preguntas realizadas en el punto 2 de la consigna.
+
+1. **¿Qué tipo de errores se presentaron o se pueden presentar con su implementación al
+problema?**
+
+
+Los tipos de errores que podrían presentarse serían;
+ - Errores de sintaxis: Los errores de sintaxis podrían presentarse con el manejo de los
+			condicionales, siguiendo un orden correcto y así asegurar un buen funcionamiento.
+ - Errores de ejecución: El usuario podría ingresar valores alfabeticos donde deberían ir valores
+			 valores númericos y viceversa.
+2. **¿Qué estrategias podría usar para solucionar estos errores?**
+
+
+Las estrategias que utilizaremos seran, el uso de "fuerza bruta" así como la estrategía de vuelta atras,
+para garantizar un buen funcionamiento logico, adicionalmente, se pondran instrucciones especificas en 
+las impresiones por consola para que el usuario ingrese los valores correctos. 
+
+Estrategias a utilizar:
+- Fuerza bruta
+- Vuelta atras
+
