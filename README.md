@@ -37,6 +37,13 @@ y el código del producto llevado en el mensaje.
 
 **Ubicación resultado**: *parcialHerramienta.py*
 
+***Restricciones***
+1. Deben ser usuarios universitarios.
+2.  Deben tener cedula de ciudadanía.
+3.  Debe ingresar solo números al ingresar el producto.
+4.  No es un ciclo el servicio.
+5.  Maximo un producto por uso de programa.
+
 En el archivo **punto2_parcialherramientas** se encuentra la respuesta a las preguntas realizadas en el punto 2 de la consigna.
 
 1. **¿Qué tipo de errores se presentaron o se pueden presentar con su implementación al
